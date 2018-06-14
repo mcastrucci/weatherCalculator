@@ -26,10 +26,10 @@ body {
 
 body iframe {
     margin-top: 20px;
-    margin-left: 100px;
+    margin-left: 30%;
     width: 80%;
     height: 100vh;
-    text-align: center;
+    border:none;
 }
 
 .right { float: right; }
@@ -41,8 +41,8 @@ body iframe {
 **********************************************/
 
 .top {
-    height: 50vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(mercadolibre.png);
+    height: 20vh;
+	background-color: #fff159;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -54,12 +54,12 @@ body iframe {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #fff;
+    color: #3b4077; 
 }
 
 .weatherCalculator__title {
-    font-size: 60px;
-    text-align: center;
+    font-size: 40px;
+    text-align: left;
     margin-bottom: 10px;
     font-weight: 300;
 }

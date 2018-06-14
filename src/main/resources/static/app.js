@@ -64,6 +64,7 @@ var appController = (function (budgetCtrl, UICtrl){
         div.style.color = 'red';
         // better to use CSS though - just set class
         div.setAttribute('class', 'map'); // and make sure myclass has some styles in css
+        div.setAttribute('style', 'width="800" height="600" frameborder="0" scrolling="no";')
        document.body.appendChild(div);
     }
         
